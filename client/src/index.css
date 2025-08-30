@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+@theme{
+  --color-primary: #5044E5;
+}
+
+.reset-tw, .reset-tw * {
+  all: revert !important;
+}
+
+.cl-drawerRoot{
+  z-index: 10;
+}
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 25s linear infinite;
+}
+
+/* Fade edges using mask (works on any bg, not white only) */
+.mask-fade {
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+}
