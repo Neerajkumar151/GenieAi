@@ -158,15 +158,27 @@ const Contact = () => {
 
               <h2 className="text-2xl font-semibold mt-10 mb-6 text-purple-600">Follow Us</h2>
               <div className="flex space-x-6">
-                <a href="https://github.com/Neerajkumar151" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-purple-600 hover:scale-110 transition">
-                  <svg className="h-8 w-8" fill="currentColor" viewBox="0 0 24 24"><path fillRule="evenodd" d="M12 2C6.477..."/></svg>
-                </a>
-                <a href="https://www.linkedin.com/in/neerajkumar1517/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-purple-600 hover:scale-110 transition">
-                  <svg className="h-8 w-8" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761..."/></svg>
-                </a>
-                <a href="https://x.com/neerajkumar1715" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-purple-600 hover:scale-110 transition">
-                  <svg className="h-8 w-8" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308..."/></svg>
-                </a>
+                <a href="https://github.com/Neerajkumar151" target="_blank" rel="noopener noreferrer"
+   className="text-gray-500 hover:text-purple-600 hover:scale-110 transition">
+  <svg className="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.42 7.86 10.95.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.69-3.87-1.54-3.87-1.54-.53-1.35-1.3-1.71-1.3-1.71-1.06-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.04 1.77 2.73 1.26 3.39.96.1-.76.41-1.26.74-1.55-2.55-.29-5.23-1.27-5.23-5.66 0-1.25.45-2.26 1.19-3.05-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.16a11.1 11.1 0 0 1 5.8 0c2.2-1.47 3.17-1.16 3.17-1.16.64 1.58.24 2.75.12 3.04.74.79 1.18 1.8 1.18 3.05 0 4.4-2.68 5.36-5.24 5.65.42.36.8 1.08.8 2.18 0 1.57-.01 2.83-.01 3.22 0 .31.21.67.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z" />
+  </svg>
+</a>
+
+                <a href="https://www.linkedin.com/in/neerajkumar1517/" target="_blank" rel="noopener noreferrer"
+   className="text-gray-500 hover:text-purple-600 hover:scale-110 transition">
+  <svg className="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M19 0h-14C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM7.06 20H3.82V9h3.24v11zM5.44 7.54c-1.04 0-1.88-.85-1.88-1.9s.84-1.9 1.88-1.9c1.05 0 1.9.85 1.9 1.9s-.85 1.9-1.9 1.9zM20 20h-3.23v-5.54c0-1.32-.02-3.02-1.84-3.02-1.84 0-2.13 1.43-2.13 2.92V20h-3.23V9h3.1v1.5h.04c.43-.81 1.48-1.66 3.04-1.66 3.26 0 3.86 2.14 3.86 4.92V20z"/>
+  </svg>
+</a>
+
+                <a href="https://x.com/neerajkumar1715" target="_blank" rel="noopener noreferrer"
+   className="text-gray-500 hover:text-purple-600 hover:scale-110 transition">
+  <svg className="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M22.46 0H1.54C.69 0 0 .69 0 1.54v20.92C0 23.31.69 24 1.54 24h20.92c.85 0 1.54-.69 1.54-1.54V1.54C24 .69 23.31 0 22.46 0zM18.16 7.49l-5.28 6.86 5.66 7.16h-3.48l-4.3-5.44-4.35 5.44H3l6.17-7.7L3.69 7.49h3.61l3.85 4.87 3.8-4.87h3.21z"/>
+  </svg>
+</a>
+
               </div>
             </div>
           </div>

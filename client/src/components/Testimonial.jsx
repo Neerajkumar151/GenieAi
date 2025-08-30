@@ -5,28 +5,31 @@ const Testimonial = () => {
     const cardRefs = useRef([]);
 
     const dummyTestimonialData = [
-        {
-            image: "/src/assets/neeraj.PNG",
-            name: 'Neeraj Kumar',
-            title: 'CEO, KumarCorp',
-            content: 'As CEO, I’ve seen many tools—but GenieAi stands out. It’s boosted our team’s efficiency and elevated the quality of everything we publish.',
-            rating: 4,
-        },
-        {
-            image: "/src/assets/udit.PNG",
-            name: 'Udit Narayan Pandey',
-            title: 'Director, PandeyCorp',
-            content: 'GenieAi has streamlined our content strategy across departments. It’s reliable, fast, and delivers results our team can trust.',
-            rating: 5,
-        },
-        {
-            image: "/src/assets/rishabh.jpg",
-            name: 'Rishabh Sharma',
-            title: 'Content Writer, SharmaCorp',
-            content: 'As a writer, GenieAi is like having a smart assistant. It helps me brainstorm, write faster, and polish every article to perfection.',
-            rating: 4,
-        }
-    ];
+  {
+    image: "/neeraj.PNG",  // ✅ directly from public/
+    name: "Neeraj Kumar",
+    title: "CEO, KumarCorp",
+    content:
+      "As CEO, I’ve seen many tools—but GenieAi stands out. It’s boosted our team’s efficiency and elevated the quality of everything we publish.",
+    rating: 4,
+  },
+  {
+    image: "/udit.PNG", // ✅
+    name: "Udit Narayan Pandey",
+    title: "Director, PandeyCorp",
+    content:
+      "GenieAi has streamlined our content strategy across departments. It’s reliable, fast, and delivers results our team can trust.",
+    rating: 5,
+  },
+  {
+    image: "/rishabh.jpg", // ✅
+    name: "Rishabh Sharma",
+    title: "Content Writer, SharmaCorp",
+    content:
+      "As a writer, GenieAi is like having a smart assistant. It helps me brainstorm, write faster, and polish every article to perfection.",
+    rating: 4,
+  },
+];
 
     return (
         <div className='px-4 sm:px-20 xl:px-32 py-24'>
