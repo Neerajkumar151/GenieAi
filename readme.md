@@ -1,4 +1,9 @@
-# GenieAi 🚀
+
+![GenieAi Screenshot](path/to/your-image.png)
+
+*Screenshot of GenieAi web application*
+
+<h1 align="center">GenieAi 🚀</h1>
 
 [![Website](https://img.shields.io/badge/Website-Live-blue)](https://genie-ai-wine.vercel.app/)  
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/Neerajkumar151/GenieAi)  
