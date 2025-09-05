@@ -1,5 +1,7 @@
 
-![GenieAi Screenshot](path/to/your-image.png)
+<p align="center">
+  <img src="client/public/Genieai.PNG" alt="GenieAi Screenshot" width="750" height="510">
+</p>
 
 *Screenshot of GenieAi web application*
 
